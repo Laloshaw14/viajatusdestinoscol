@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Event snippet for Vista de una página conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17492132744/1zsWCIiazokbEIiH85RB',
+      'value': 1.0,
+      'currency': 'ARS',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ViajeSuperBaratoCol — Vuelos nacionales económicos</title>
+  <meta name="description" content="ViajeSuperBaratoCol: ofertas en vuelos nacionales baratos en Colombia. Compara y ahorra en tus viajes.">
+  <style>
+    :root{
+      --bg1:#1a1033; --bg2:#2c1447; --text:#fdfdfd; --muted:#d4d4d8;
+      --primary:#facc15; --primary-2:#f97316; --line:rgba(255,255,255,.1);
+      --glow:0 0 25px rgba(250,204,21,.35);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,Roboto,Arial,sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:var(--text)}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1180px;margin:0 auto;padding:0 1.25rem}
+    header{position:sticky;top:0;background:rgba(26,16,51,.8);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:.9rem 0}
+    .brand{display:flex;gap:.65rem;align-items:center;font-weight:800}
+    .logo{width:36px;height:36px;border-radius:12px;background:conic-gradient(from 210deg,var(--primary),var(--primary-2));box-shadow:var(--glow)}
+    .hero{padding:3rem 0;text-align:center}
+    h1{font-size:2.2rem;margin:0}
+    .lead{color:var(--muted);margin-top:.5rem}
+    .btn{display:inline-block;margin-top:1.5rem;border-radius:14px;padding:1rem 1.5rem;font-weight:800;background:linear-gradient(135deg,var(--primary-2),var(--primary));color:#1a1033;box-shadow:var(--glow);text-decoration:none;transition:transform .2s}
+    .btn:hover{transform:translateY(-3px)}
+    .section{padding:3rem 0}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+    .deal{background:#24133b;border:1px solid var(--line);border-radius:18px;padding:1rem;text-align:center;font-size:2.5rem}
+    .meta{margin-top:1rem;font-size:.9rem}
+    .pill{font-size:.75rem;background:rgba(250,204,21,.2);color:#fef08a;padding:.3rem .6rem;border-radius:999px;display:inline-block;margin:.25rem 0}
+    .price{font-weight:800;font-size:1.1rem}
+    footer{border-top:1px solid var(--line);background:#120a22;padding:1.5rem;text-align:center;font-size:.9rem;color:var(--muted)}
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17492132744">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17492132744');
+</script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo"></div>
+        <div>
+          ViajeSuperBaratoCol
+        </div>
+      </div>
+      <a class="btn" href="http://ofertasareasnacionales.site/info">Ver ofertas</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Explora Colombia con <span style="background:linear-gradient(135deg,var(--primary-2),var(--primary));-webkit-background-clip:text;color:transparent">los mejores precios</span></h1>
+      <p class="lead">Con ViajeSuperBaratoCol viaja a destinos nacionales a precios increíbles, sin complicaciones ni costos ocultos.</p>
+      <a class="btn" href="">Buscar vuelos nacionales</a>
+    </div>
+  </section>
+
+  <section class="section" id="">
+    <div class="container">
+      <h2>Ofertas nacionales destacadas 🇨🇴</h2>
+      <p class="lead">Descubre promociones exclusivas para tus viajes dentro del país.</p>
+      <div class="cards">
+        <div class="deal">🏖️<div class="meta"><div><b>BOG → CTG</b> · Ida y vuelta</div><div class="pill">-20%</div><div class="price">$ 88.350</div></div></div>
+        <div class="deal">🌆<div class="meta"><div><b>BOG → MDE</b> · Ida y vuelta</div><div class="pill">-15%</div><div class="price">$ 120.150</div></div></div>
+        <div class="deal">🏝️<div class="meta"><div><b>BOG → SMR</b> · Ida y vuelta</div><div class="pill">-28%</div><div class="price">$ 89.999</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Opiniones de viajeros</h2>
+      <div class="cards">
+        <div class="deal" style="font-size:1rem">“Conseguí vuelo a Cartagena muy económico. Fácil y rápido.” — Sofía M.</div>
+        <div class="deal" style="font-size:1rem">“Excelente servicio en mi viaje a Medellín. Todo claro.” — Juan P.</div>
+        <div class="deal" style="font-size:1rem">“Las promociones a Santa Marta son las mejores.” — Daniela R.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> ViajeSuperBaratoCol · Vuelos sin romper el bolsillo
+  </footer>
+
+  <script>
+  const BUSCADOR_URL = '';
+  const btn = document.getElementById('redirectBtn');
+  if (btn) {
+    btn.setAttribute('href', '#ofertas');
+    btn.addEventListener('click', function(e){
+      if (BUSCADOR_URL && /^https?:\/\//.test(BUSCADOR_URL)) {
+        e.preventDefault();
+        window.open(BUSCADOR_URL, '_blank', 'noopener');
+      }
+    });
+  }
+  document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
